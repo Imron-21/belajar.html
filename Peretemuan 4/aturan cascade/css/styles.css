@@ -1,0 +1,36 @@
+*{
+    font-family: Arial;
+}
+
+/* Aturan terakhir */
+i {
+    color: green;
+}
+
+i {
+    color: darkcyan; /*jika kita membuat 2 warna pada tag (i) maka yg dipilih oleh sistem perintah (i) trakhir */
+}
+
+/* spesifik */
+
+b {
+    color: blueviolet ;
+}
+
+p b {
+    color: brown !important;
+}
+
+p b {
+    color: aqua;
+}
+
+p b {
+    font-size: 200%;
+}
+
+/* studi kasus */
+
+p#pendahuluan {
+    font-size: 70%;
+}

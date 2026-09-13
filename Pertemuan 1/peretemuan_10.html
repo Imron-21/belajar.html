@@ -1,0 +1,36 @@
+<!-- form -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form>
+        Nama depan : <input type="text" name="nama_depan"><br>
+        Nama belakang : <input type="text" name="nama_belakang"><br>
+        Password : <input type="password" name="password"><br>
+        <h4>WNI:Radio button</h4>
+        <input type="radio" name="wni" value="ya"><label for="ya">ya</label><br>
+        <input type="radio" name="wni" value="tidak"><label for="tidak">tidak</label><br>
+        <h4>Musik favorit: (Checkbox)</h4>
+        <input type="Checkbox" name="musik" value="Dangdut"><label for="Dangdut">dangdut</label><br>
+        <input type="Checkbox" name="Musik" value="Jazz"><label for="Jazz">jazz</label><br>
+
+        <h4>Dropdown list</h4>
+        <select name="pekerjaan">
+            <option value="mahasiswa">Mahasiswa</option>
+            <option value="pegawai">Pegawai</option>
+            <option value="wiraswasta">Wiraswasta</option>  
+        </select>
+
+        <h4>Upload File</h4>
+        <input type="file" name="file" accept=".jpg, .png">
+        <br><br>
+        <input type="button" name="submit" value="Submit">
+    </form>
+
+</body>
+</html>

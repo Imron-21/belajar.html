@@ -1,0 +1,60 @@
+/* Universal Selector */
+* {
+  font-family: Arial;
+}
+
+body {
+  background-color:darkgrey;
+}
+
+/* Type Selector */
+h1 {
+  color: blue;
+  font-size: 50px;
+}
+
+h2 {
+  color:darkmagenta;
+}
+
+/* Class Selector */
+li.menu {
+  color: lightblue;
+}
+
+li.sarapan {
+  color:red;
+}
+
+/* id selector */
+
+#maksi {
+  color:chartreuse;
+}
+
+/* child selector */
+
+p>b {
+  color: darkcyan;
+}
+
+li>b {
+  color:white;
+}
+
+/* decendant selector */
+
+p b {
+  color: darkorchid;
+}
+
+/* adjacent sibling */
+p+h2 {
+  color:darkorange;
+}
+
+/* general sibling selector */
+
+h2~p{
+  font-family: Verdana;
+}

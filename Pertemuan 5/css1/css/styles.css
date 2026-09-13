@@ -1,0 +1,33 @@
+body {
+    background-color: #efefef;
+    color: #efefef;
+    
+}
+
+#artikel {
+    padding: 20px;
+    background-color: #a0a0a0;
+}
+
+h1 {
+    background-color: rgb(255, 0, 72);
+    padding: 10px;
+}
+
+h2 {
+    background-color: rgb(255, 0, 149, 0.3);
+    padding: 10px;
+}
+
+/* hue 0 sampai 360 */
+/* satu rasi - 0% sampai 100% */
+/* lightnes - 0% sampai 100% */
+p.paragraf1 {
+    background-color: hsl(150,100%,50%);
+    padding: 10px;
+}
+
+p.paragraf2 {
+    padding: 10px;
+    background-color: hsl(150,100%,50%,0.5);
+}

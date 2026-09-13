@@ -1,0 +1,47 @@
+h1{
+    font-family: lucida;
+    font-size:xx-large;
+    font-weight: normal;
+    text-transform: uppercase;
+    text-align: center;
+    color: brown;
+    text-shadow: 10px 5px 5px black;
+    word-spacing: .5em;
+    letter-spacing: 5px;
+}
+
+.tautan{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 150%;
+    font-style: oblique;
+    text-decoration: none;
+    text-transform:lowercase;
+}
+
+a.tautan:hover{
+    color: deeppink;
+}
+
+a.tautan:active{
+    color: darkcyan;
+}
+
+a.tautan:visited{
+    color: green;
+}
+
+.credit{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 11px;
+    font-weight: bolder;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+p.intro{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2em;
+    text-align:justify
+}

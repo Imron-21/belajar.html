@@ -1,0 +1,28 @@
+body {
+    font-family: Verdana;
+    color: #670c0c;
+}
+
+table {
+    width: 500px;
+    border-collapse: collapse;
+}
+
+th,td {
+    padding: 7px 10px 10px 10px;
+}
+
+th {
+    border-top: 1px solid rgb(222, 51, 51);
+    border-bottom: 2px solid black;
+    text-align: left;
+    font-size: 80%;
+}
+
+tr.genap {
+    background-color: rgb(255, 204, 204);
+}
+
+tr:hover {
+    background-color: rgb(204, 204, 255);
+}

@@ -1,0 +1,56 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.border-1 {
+    border: 2px solid blue;
+    border-top-width: 4px;
+}
+
+#atas-solid {
+    border: 4px;
+    border-top-style: solid;
+}
+
+#kiri-double {
+    border-left-width: 4px;
+    border-left-style: double;
+    border-color: coral;
+}
+
+#bawah-dotted {
+    border-color: coral;
+    border-bottom-width: 4px;
+    border-bottom-style: dotted;
+}
+
+#kanan-dashed {
+    border-color: coral;
+    border-bottom-width: 4px;
+    border-bottom-style: dashed;
+}
+
+
+.border-2 {
+    border-color: aquamarine;
+    border-style: solid;
+
+    /* seluruhnya sama */
+    border-width: 20px;
+}
+
+.border-3 {
+    border-color: aquamarine;
+    border-style: solid;
+
+    /* untuk atas-bawah dan kiri-kanan */
+    border-width: 20px 5px;
+}
+
+.border-4 {
+    border-color: aquamarine;
+    border-style: solid;
+
+    /* untuk atas, kanan, bawah, kiri*/
+    border-width: 5px 10px 15px 20px;
+}

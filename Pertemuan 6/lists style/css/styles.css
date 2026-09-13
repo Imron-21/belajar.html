@@ -1,0 +1,32 @@
+*{
+    font-family: Arial;
+}
+
+h1{
+    font-size: 25px;
+    color:cornflowerblue;
+}
+
+ol{
+    list-style-type: lower-roman;
+    list-style-type: upper-latin;
+    list-style-type: lower-greek;
+    list-style-type: upper-roman;
+    list-style-type: lower-latin;
+    list-style-type: upper-greek;
+    list-style-type: decimal;
+    list-style-type: decimal-leading-zero;
+}
+
+ul{
+    width: 400px;
+}
+
+ul li {
+    margin: 10px;
+    list-style-position: inside;
+}
+
+ol.singkat {
+    list-style-type: lower-latin;
+}
